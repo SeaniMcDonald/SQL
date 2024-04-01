@@ -67,5 +67,3 @@ GROUP BY s.artist_name)
 SELECT artist_name, average_popularity,'Top Star' as tag
 FROM tempTable
 WHERE average_popularity >=90;
-
-#6. 
